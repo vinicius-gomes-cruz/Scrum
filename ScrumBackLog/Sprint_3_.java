@@ -9,6 +9,10 @@ public class Sprint_3_{
         printarArray(dadosFuncionario);
         
     }
+
+    public static String[] retornaVetor(){
+        return dadosFuncionario;
+    }
     public static String[] completaVetor(String[] array){
         array[0] = nomeFuncionario();
         array[1] = enderecoDoFuncionario();
